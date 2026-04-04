@@ -18,14 +18,12 @@ function Footer() {
           <Link to="/about">About</Link>
           <Link to="/cars">Cars</Link>
           <Link to="/booking">Booking</Link>
-          <Link to="/portfolio">Portfolio</Link>
           <Link to="/contact">Contact</Link>
         </div>
 
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Email: tushar.dev011@gmail.com</p>
-          <p>Phone: +91 7876080XXX</p>
+          <p>Email: rentiva.v2@gmail.com</p>
           <p>Address: Kangra HP, India</p>
         </div>
 
@@ -33,7 +31,6 @@ function Footer() {
           <h3>Follow Us</h3>
           <div className="social-icons">
             <a href="https://github.com/tushardev011-maker" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="https://www.instagram.com/tushar_mehra_031" target="_blank" rel="noopener noreferrer">Instagram</a>
           </div>
         </div>
 
