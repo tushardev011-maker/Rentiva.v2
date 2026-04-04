@@ -32,12 +32,12 @@ function Booking() {
         <div className="form-grid">
           <div className="form-group">
             <label>Full Name</label>
-            <input type="text" placeholder="User Name" />
+            <input type="text" placeholder="Tushar" />
           </div>
 
           <div className="form-group">
             <label>Email</label>
-            <input type="email" placeholder="rentiva.v2@gmail.com" />
+            <input type="email" placeholder="tushar123@gmail.com" />
           </div>
 
           <div className="form-group">

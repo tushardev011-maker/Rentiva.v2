@@ -1,0 +1,41 @@
+[33mcommit b3754abf122dbb4e46e72950b8e8967eb1fb809b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Sat Apr 4 19:01:52 2026 +0530
+
+    Initial commit
+
+[33mcommit f0a27f4235cd7634b6a807089f25183197d09769[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Wed Mar 18 20:52:49 2026 +0530
+
+    improved favicon
+
+[33mcommit b4ce10aef8d7bb987a23ee8bcb6fb2c65a91ece6[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Wed Mar 18 20:33:38 2026 +0530
+
+    final favicon fix
+
+[33mcommit 1d0c73bd2caae1b1c9145bf8b53f6226f4eb79ab[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Wed Mar 18 20:27:00 2026 +0530
+
+    changed favicon
+
+[33mcommit bc20113fc51c0c7733a40ebf6c1eedd679628e5e[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Wed Mar 18 19:32:37 2026 +0530
+
+    added redirects file
+
+[33mcommit 929cbd46062b096a35c8c698b83a1788a9864eff[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Wed Feb 4 14:11:43 2026 +0530
+
+    Fix CSS case sensitivity issue
+
+[33mcommit 11c6fba93d698e799e95b19383a11791c5476b27[m
+Author: Tushar <tushar.dev011@gmail.com>
+Date:   Mon Jan 12 10:42:14 2026 +0530
+
+    Initial commit
