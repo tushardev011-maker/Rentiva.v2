@@ -18,7 +18,7 @@ function Contact() {
   async function handleSubmit(e) { 
     e.preventDefault(); 
  
-    await fetch("http://localhost:5000/api/contact", { 
+    await fetch("https://rentiva-v2.onrender.com", { 
       method: "POST", 
       headers: { 
         "Content-Type": "application/json" 
