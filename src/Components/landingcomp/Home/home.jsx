@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 function Home() {
@@ -19,8 +20,8 @@ function Home() {
           </p>
 
           <div className="hero-actions">
-            <a href="/cars" className="btn-dark">View Cars</a>
-            <a href="/booking" className="btn-light">Book Now</a>
+            <Link to="/cars" className="btn-dark">View Cars</Link>
+            <Link to="/booking" className="btn-light">Book Now</Link>
           </div>
         </div>
 
@@ -28,8 +29,6 @@ function Home() {
           <img src="/images/homee.png" alt="Luxury Car" />
         </div>
       </section>
-
-      
     </>
   );
 }

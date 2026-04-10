@@ -2,23 +2,35 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const dotenv = require("dotenv");
+
 dotenv.config();
+
 const app = express();
-// middlewares 
+
 app.use(cors());
 app.use(express.json());
-// routes 
-const contactRoute = require("./routers/contactRoutes");
-app.use("/api", contactRoute);
 
-// MongoDB connection 
-mongoose.connect("mongodb://127.0.0.1:27017/contactDB")
-  .then(() => console.log("MongoDB Connected"))
-  .catch(err => console.log(err));
-// test route 
+const contactRoutes = require("./routers/contactRoutes");
+const bookingRoute = require("./routers/bookingRoute");
+
+app.use("/api/contact", contactRoutes);
+app.use("/api/booking", bookingRoute);
+
+const MONGO_URI = process.env.MONGO_URI;
+const PORT = process.env.PORT || 5000;
+
+mongoose
+  .connect(MONGO_URI)
+  .then(() => console.log("✅ MongoDB Connected"))
+  .catch((err) => {
+    console.error("❌ MongoDB connection failed:", err.message);
+    process.exit(1);
+  });
+
 app.get("/", (req, res) => {
-  res.send("Server is running");
+  res.json({ message: "Rentiva Server is running" });
 });
-app.listen(5000, () => {
-  console.log("Server started on port 5000");
+
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
